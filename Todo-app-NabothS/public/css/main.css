@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #231B41;
+    color: #C8C8C9;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav{
+    width: 100%;
+    height: 10vh;
+    padding: 10px;
+}
+.title{
+    font-size: 3rem;
+    padding:20px;
+
+}
+.asideContainer{
+    flex:1;
+}
+.aside{
+    display: flex;
+    flex-direction: column;
+}
+
+.aside h2{
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding-left:20px;
+
+}
+.asideTop{
+    padding:20px;
+
+}
+.asideBottom{
+    display: flex;
+    flex-direction: column;
+
+}
+.buttonCategory{
+    text-align: left;
+    padding:15px 40px;
+    border-radius: 0;
+    border: none;
+    color: #C8C8C9;
+    background: none;
+    font-size: 1rem;
+    transition:0.1s;
+    background-color:#C23E79;
+    text-decoration: none;
+}
+.notSelected {
+    background-color: transparent; 
+}
+.notSelected:hover{
+    background-color: rgba(165, 62, 134,0.5); 
+    cursor:pointer;
+}
+
+.bodyContainer{
+    display: flex;
+}
+
+.mainContainer{
+    background-color: #1D0C2C;
+    flex: 4;
+}
+.main{
+    padding: 20px;
+
+}
+.main h1{
+    color:#C23E79;
+    margin:20px;
+}
+.bodyContainer{
+    height: 100%;
+}
+
+.inputInner{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    background-color:#321b47;
+    padding:25px;
+    margin:20px;
+    border-radius:10px;
+    border-bottom:1px solid #C23E79
+}
+.inputInner .input{
+    width: 100%;
+    background-color: #111a3b;
+    border : none;
+    padding:10px;
+    font-size: 1.5rem;
+    color: #C23E79;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+    padding-left:20px;
+}
+.inputInner button{
+    width: 6%;
+    color:white;
+    background-color: #23c83b;
+    border-radius: 0 10px 10px 0;
+    border:none;
+    padding:10px;
+    font-size: 1.5rem;
+}
+
+.waitingContainer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    margin: 20px;
+    width: 80%;
+    border-bottom: 1px solid #C23E79;
+}
+.waitingInner{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin : 20px 0 20px 0;
+    
+}
+.waitingInner div{
+    background-color: #321b47;
+    padding:10px;
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+}
+.waitingInner div label{
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding:10px;
+}
+.waitingInner button{
+    background-color: #d4c714;
+    border: none;
+    width: 6%;
+    padding:10px;
+    font-size: 1.5rem;
+    border-radius: 0 10px 10px 0;
+}
+.waitingInner button svg{
+    width:40%;
+}
+
+.completeContainer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    margin: 20px;
+    width: 80%;
+}
+.completeInner{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin : 20px 0 20px 0;
+    
+}
+.completeInner div{
+    background-color: #321b47;
+    padding:10px;
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+}
+.completeInner div label{
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding:10px;
+}
+.completeInner button{
+    background-color: #c82347;
+    border: none;
+    width: 6%;
+    padding:10px;
+    font-size: 1.5rem;
+    border-radius: 0 10px 10px 0;
+}
+.completeInner button svg{
+    width:50%;
+}
+.completeInner button svg path{
+    fill:white;
+}
